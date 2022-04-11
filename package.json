@@ -33,8 +33,5 @@
     "slashCommands"
   ],
   "author": "Cody Dimensions",
-  "license": "CC",
-  "bugs": {
-    "url": "https://github.com/CodyDimensions/Cody-Dimensions-Official-bot/issues"
-  },
+  "license": "CC"
 }
