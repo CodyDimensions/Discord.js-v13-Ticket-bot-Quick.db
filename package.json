@@ -1,0 +1,36 @@
+{
+  "name": "ticket-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "ascii-table": "^0.0.9",
+    "colors": "^1.4.0",
+    "discord-api-types": "^0.26.1",
+    "discord-html-transcripts": "^2.2.8",
+    "discord.js": "^13.6.0",
+    "fs": "0.0.1-security",
+    "moment": "^2.29.2",
+    "quick.db": "^7.1.3"
+  },
+  "devDependencies": {
+    "node": "^16.13.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodyDimensions/Cody-Dimensions-Official-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodyDimensions/Cody-Dimensions-Official-bot/issues"
+  },
+  "homepage": "https://github.com/CodyDimensions/Cody-Dimensions-Official-bot#readme"
+}
