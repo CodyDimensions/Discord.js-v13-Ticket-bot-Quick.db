@@ -1,5 +1,5 @@
 {
-  "name": "ticket-1",
+  "name": "discordjs-v13-ticket-bot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -22,15 +22,19 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CodyDimensions/Cody-Dimensions-Official-bot.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "javascript",
+    "discord.js",
+    "discordjs",
+    "discordjsv13",
+    "ticket-bot",
+    "discord.jsv13",
+    "button-ticket-bot",
+    "slashCommands"
+  ],
+  "author": "Cody Dimensions",
+  "license": "CC",
   "bugs": {
     "url": "https://github.com/CodyDimensions/Cody-Dimensions-Official-bot/issues"
   },
-  "homepage": "https://github.com/CodyDimensions/Cody-Dimensions-Official-bot#readme"
 }
