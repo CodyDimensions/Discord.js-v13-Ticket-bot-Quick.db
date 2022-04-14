@@ -174,7 +174,7 @@ client.on('interactionCreate', async interaction => {
     await client.channels.cache.get(transcriptChannel).send({ content: `**Ticket Transcript - ${interaction.channel.name}**`, files: [attachment] });
         interaction.reply({ embeds: [
           new MessageEmbed()
-          .setDescription('Ticket transcript sent to transcript channel!')
+          .setDescription(`Ticket transcript sent to <#${transcriptChannel}>!`)
         ] });
     } else if(transcriptType === 'text') {
         let messages = await interaction.channel.messages.fetch();
@@ -183,7 +183,7 @@ client.on('interactionCreate', async interaction => {
        client.channels.cache.get(transcriptChannel).send({ content: `**Ticket Transcript - ${interaction.channel.name}**`, files: [txt] })
        interaction.reply({ embeds: [
           new MessageEmbed()
-          .setDescription('Ticket transcript sent to transcript channel!')
+          .setDescription(`Ticket transcript sent to <#${transcriptChannel}>!`)
         ] });
     } else {
       return;

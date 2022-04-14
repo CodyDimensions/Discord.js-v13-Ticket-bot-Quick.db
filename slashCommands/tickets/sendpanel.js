@@ -12,7 +12,7 @@ module.exports = {
 
           let replyEmbed = new MessageEmbed()
           .setAuthor('Ticket >> Ticket Panel Sent!', interaction.guild.iconURL())
-          .setDescription(`${interaction.user}, ticket panel has sent to ${channel}`)
+          .setDescription(`${interaction.user}, ticket panel has sent to <#${channel}>`)
           interaction.reply({ embeds: [replyEmbed] })
 
           const embed = new MessageEmbed()
