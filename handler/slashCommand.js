@@ -4,7 +4,7 @@ const { Routes } = require("discord-api-types/v9");
 
 const token = process.env.token
 const application_id = process.env.application_id
-const guild = process.env.guild
+const guild = process.env.guild || null;
 
 module.exports = (client) => {
 

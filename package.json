@@ -11,6 +11,7 @@
     "discord-api-types": "^0.26.1",
     "discord-html-transcripts": "^2.2.8",
     "discord.js": "^13.6.0",
+    "express": "^4.17.3",
     "fs": "0.0.1-security",
     "moment": "^2.29.2",
     "quick.db": "^7.1.3"
